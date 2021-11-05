@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    ss
+    {% for pessoa in pessoas_cadastradas %}
+        {{ pessoa.nome }}
+        
+    {% endfor %}
 </body>
 </html>
