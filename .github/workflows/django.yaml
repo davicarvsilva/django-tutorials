@@ -2,9 +2,9 @@ name: Basic Workflow
 
 on:
   push:
-    branches: [ main ]
+    branches: [ Estrutura_Inicial_do_Projecto ]
   pull_request:
-    branches: [ main ]
+    branches: [ Estrutura_Inicial_do_Projecto ]
 
 jobs:
   example:
